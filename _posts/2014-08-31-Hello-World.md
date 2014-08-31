@@ -15,3 +15,8 @@ This is powered by [GitHub Pages][gh-pages], [Jekyll][] and [Jekyll Now][jnow].
 [jekyll]: http://jekyllrb.com/
 [jnow]: https://github.com/barryclark/jekyll-now
 
+## TODO
+
+* Eradicate font faces and sizes from the theme
+* Replace Disqus with something more Free and open
+* Add some content :)
