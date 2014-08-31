@@ -110,9 +110,11 @@ img {
   max-width: 100%;
 }
 
-.date {
+.date, time {
   font-style: italic;
   color: $gray;
+  font-size: smaller;
+  font-weight: normal;
 }
 
 // Specify the color of the selection
