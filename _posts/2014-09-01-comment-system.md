@@ -36,6 +36,7 @@ will have the chance to reject their offer if and when they make it.
 But still, I do not want to support and endorse a system that does
 that to its users.
 
+
 ----
 
 So what do I want from a commenting system?
