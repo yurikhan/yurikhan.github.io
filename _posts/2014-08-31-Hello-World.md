@@ -17,6 +17,6 @@ This is powered by [GitHub Pages][gh-pages], [Jekyll][] and [Jekyll Now][jnow].
 
 ## TODO
 
-* Eradicate font faces and sizes from the theme
+* <del>Eradicate font faces and sizes from the theme</del> done
 * Replace Disqus with something more Free and open
 * Add some content :)
