@@ -133,6 +133,77 @@ sub { top: 0.5em; }
   font-weight: normal;
 }
 
+table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+
+  td, th {
+    border: 0.75pt solid $lightGray;
+    padding: 0em 0.25em;
+  }
+
+  th {
+    background-color: $lightGray;
+  }
+}
+
+table.keyboard {
+  td {
+    width: 0.5in;
+    height: 0.5in;
+    position: relative;
+    font-family: monospace;
+    empty-cells: hide;
+
+    strong {
+    }
+    br {
+      display: none;
+    }
+    & > *:first-child {
+      position: absolute;
+      top: 0.5em;
+      left: 0.5em;
+    }
+    & > *:first-child + * {
+      position: absolute;
+      top: 0.5em;
+      right: 0.5em;
+    }
+    br + * {
+      position: absolute;
+      bottom: 0.5em;
+      left: 0.5em;
+    }
+    br + * + * {
+      position: absolute;
+      bottom: 0.5em;
+      right: 0.5em;
+    }
+  }
+  td:empty {
+    border: 0.75pt transparent;
+  }
+  .dead {
+    background-color: $lighterGray;
+    border: 0.75pt dotted;
+  }
+}
+
+table.keyboard.with-altgr {
+  *:first-child + *,
+  br + * + * {
+    color: $green;
+  }
+}
+table.keyboard.with-groups {
+  td > *:first-child + *,
+  br + * + * {
+    color: $red;
+  }
+}
+
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
