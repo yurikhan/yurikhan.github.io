@@ -118,6 +118,14 @@ img {
   max-width: 100%;
 }
 
+sup, sub {
+  vertical-align: middle;
+  position: relative;
+  font-size: 75%;
+}
+sup { bottom: 0.5em; }
+sub { top: 0.5em; }
+
 .date, .post h1 time {
   font-style: italic;
   color: $gray;
