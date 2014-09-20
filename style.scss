@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $headingFont;
   color: $black;
   font-weight: bold;
   
@@ -181,9 +181,8 @@ img {
   margin: 0;
   color: $black;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $headingFont;
   font-weight: 300;
-  letter-spacing: 1px;
   font-size: 21pt;
 }
 
@@ -199,7 +198,7 @@ img {
 
 nav {
   float: right;
-  font-family: $helveticaNeue; 
+  font-family: $headingFont; 
   font-size: 14pt;
   
   @include mobile {
@@ -214,7 +213,6 @@ nav {
     color: $black;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
 
     @include mobile {
       margin: 0 7.5pt;
