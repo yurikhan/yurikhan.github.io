@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6 {
   @include mobile {
     line-height: 1.5;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
   
 h1 {  
@@ -70,8 +74,8 @@ p {
 
 a {
   color: $linkColor;
-  text-decoration: none;
-	cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
   &:hover, &:active {
     color: $linkColor;
   }
@@ -184,6 +188,10 @@ img {
   font-family: $headingFont;
   font-weight: 300;
   font-size: 21pt;
+}
+
+.site-name a {
+  text-decoration: none;
 }
 
 .site-description {
