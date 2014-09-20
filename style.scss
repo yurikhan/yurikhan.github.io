@@ -23,6 +23,17 @@ body {
   color: $black;
 }
 
+aside {
+  background: $lighterGray;
+  border: 0.75pt solid $lightGray;
+  padding: 0.25em;
+  margin: 1em 0;
+
+  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-top: 0;
+  }
+}
+
 .container {
   margin: 0 auto;
   max-width: 7.5in;
