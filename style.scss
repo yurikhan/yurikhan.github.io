@@ -19,7 +19,7 @@ html {
 
 body {
   background: $white;
-  font: 14pt/1.5 $bodyFont;
+  line-height: 1.5;
   color: $black;
 }
 
@@ -48,23 +48,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
   
-h1 {  
-  font-size: 24pt;
+h1 {
+  font-size: 170%;
   a {
     color: inherit;
   }
 }
 
-h2 {  
-  font-size: 18pt;
+h2 {
+  font-size: 130%;
 }
 
 h3 {  
-  font-size: 16pt;
+  font-size: 115%;
 }
 
 h4 {  
-  font-size: 14pt;
+  font-size: 100%;
   color: $gray;
 }
 
@@ -79,6 +79,10 @@ a {
   &:hover, &:active {
     color: $linkColor;
   }
+}
+
+a.footnote {
+  text-decoration: none;
 }
 
 ul, ol {
@@ -185,9 +189,10 @@ img {
   margin: 0;
   color: $black;
   cursor: pointer;
+  text-decoration: none;
   font-family: $headingFont;
   font-weight: 300;
-  font-size: 21pt;
+  font-size: 150%;
 }
 
 .site-name a {
@@ -197,7 +202,7 @@ img {
 .site-description {
   margin: -4pt 0 0 0;
   color: $gray;
-  font-size: 12pt;
+  font-size: 85%;
   
   @include mobile {
     margin: 3pt 0;
@@ -207,18 +212,19 @@ img {
 nav {
   float: right;
   font-family: $headingFont; 
-  font-size: 14pt;
+  font-size: 100%;
   
   @include mobile {
     float: none;
     margin-top: 7pt;
     display: block;
-    font-size: 7pt;
+    font-size: 50%;
   }
 
   a {
     margin-left: 15pt;
     color: $black;
+    text-decoration: none;
     text-align: right;
     font-weight: 300;
 
@@ -249,7 +255,7 @@ nav {
     border-left: 1.5pt solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 16pt;
+    font-size: 115%;
     font-style: italic;
   }
 
@@ -259,7 +265,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 12pt;
+    font-size: 85%;
   }
 }
 
