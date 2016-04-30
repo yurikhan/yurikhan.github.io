@@ -53,7 +53,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 excerpt_separator: "\n\n\n"
