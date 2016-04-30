@@ -3,18 +3,84 @@
 // VARIABLES
 //
 
+// Tango colors
+
+$aluminium0: #2e3436;
+$aluminium1: #555753;
+$aluminium2: #888a85;
+$aluminium3: #babdb6;
+$aluminium4: #d3d7cf;
+$aluminium5: #ecf0eb;
+$aluminium6: #f7f8f5;
+
+$butter0: #291e00;
+$butter1: #725000;
+$butter2: #c4a000;
+$butter3: #edd400;
+$butter4: #fce94f;
+$butter5: #fffc9c;
+$butter6: #feffd0;
+
+$orange0: #301700;
+$orange1: #8c3700;
+$orange2: #ce5c00;
+$orange3: #f57900;
+$orange4: #fcaf3e;
+$orange5: #ffd797;
+$orange6: #fff0d7;
+
+$chocolate0: #271700;
+$chocolate1: #503000;
+$chocolate2: #8f5902;
+$chocolate3: #c17d11;
+$chocolate4: #e9b96e;
+$chocolate5: #efd0a7;
+$chocolate6: #faf0d7;
+
+$chameleon0: #173000;
+$chameleon1: #2a5703;
+$chameleon2: #4e9a06;
+$chameleon3: #73d216;
+$chameleon4: #8ae234;
+$chameleon5: #b7f774;
+$chameleon6: #e4ffc7;
+
+$skyblue0: #00202a;
+$skyblue1: #0a3050;
+$skyblue2: #204a87;
+$skyblue3: #3465a4;
+$skyblue4: #729fcf;
+$skyblue5: #97c4f0;
+$skyblue6: #daeeff;
+
+$plum0: #170720;
+$plum1: #371740;
+$plum2: #5c3566;
+$plum3: #75507b;
+$plum4: #ad7fa8;
+$plum5: #e0c0e4;
+$plum6: #fce0ff;
+
+$scarletred0: #270000;
+$scarletred1: #600000;
+$scarletred2: #a40000;
+$scarletred3: #cc0000;
+$scarletred4: #ef2929;
+$scarletred5: #f78787;
+$scarletred6: #ffcccc;
+
 // Colors
-$linkColor: #3465a4; 
-$green: #4e9a06;
-$red: #a40000;
+$linkColor: $skyblue3; 
+$green: $chameleon2;
+$red: $scarletred2;
 
 // Grays
 $black: #000;
-$darkerGray: #2e3436;
-$darkGray: #555753;
-$gray: #888a85;
-$lightGray: #ecf0eb;
-$lighterGray: #f7f8f5;
+$darkerGray: $aluminium0;
+$darkGray: $aluminium1;
+$gray: $aluminium2;
+$lightGray: $aluminium5;
+$lighterGray: $aluminium6;
 $white: #fff;
 
 // Font stacks
